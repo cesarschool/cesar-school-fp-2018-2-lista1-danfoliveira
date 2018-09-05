@@ -11,9 +11,13 @@
 # substituindo apenas o comando print(questão...) existente.
 ##
 def main():
-    print("questao 3")
+    import math
+    raio = int(input('digite o raio '))
+    area = (math.pi) * (raio ** 2)
+    diametro = 2 * raio
+    comprimento = 2 * math.pi * raio
+    print ('a área do círculo é {}\no diâmetro da circunferência é {}\ne o comprimento da circunferência é {}'.format(area, diametro, comprimento))
 
 
-    
 if __name__ == '__main__':
     main()

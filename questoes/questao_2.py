@@ -11,7 +11,9 @@
 # substituindo apenas o comando print(questão...) existente.
 ##
 def main():
-    print("questao 2")
+    celsius = float(input('digite temperatura em graus celsius'))
+    fahrenheit = ((celsius * 9) / 5) + 32
+    print ('sua temperatura em fahrenheit é {}'.format(fahrenheit))
 
 
 

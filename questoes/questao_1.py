@@ -11,8 +11,11 @@
 # substituindo apenas o comando print(questão...) existente.
 ##
 def main():
-    print("daniel")
-    
+    salario = int(input('digite o seu salário '))
+    porcentagem = int(input('digite a porcentagem '))
+    aumento = (salario * (porcentagem / 100))
+    valor = (salario + aumento)
+    print ('o seu aumento foi de {} e o seu novo salário é {}'.format(aumento, valor))
 
 
 if __name__ == '__main__':

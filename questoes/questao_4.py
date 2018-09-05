@@ -11,9 +11,10 @@
 # substituindo apenas o comando print(questão...) existente.
 ##
 def main():
-    print("questao 4")
-
-
+    km = int(input('digite a quantidade de km percorridos '))
+    dias = int(input('digite a quantidade de dias pelos quais o carro foi alugado'))
+    preco = (km * 0.15) + (60 * dias)
+    print ('preço a pagar: {} R$'.format(preco))
     
 if __name__ == '__main__':
     main()
