@@ -17,5 +17,6 @@ def main():
     anos = int(input('Digite a quantidade de anos pelos quais você fumou '))
     minutos = (cigarros * 10) * (anos * 365)
     dias = minutos // 1440
+    print ('a pessoa perde aproximadamente {} dias de sua vida.'.format(dias))
 if __name__ == '__main__':
     main()
